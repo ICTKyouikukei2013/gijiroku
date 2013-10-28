@@ -9,8 +9,8 @@ end
 
 names.delete("end")
 
-for i in 1..3
-	puts(4 - i);
+3.downto(1){|i|
+	puts i
 	sleep(1);
-end
+}
 puts "今日の筆記者は" + names.sample + "です"
